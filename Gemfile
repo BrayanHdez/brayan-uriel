@@ -20,6 +20,8 @@ group :development, :test do
 end
 
 group :development do
+  # Use postgresql as the database for Active Record
+  gem 'pg', '~> 1.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
